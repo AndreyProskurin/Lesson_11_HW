@@ -13,6 +13,14 @@
 		3211FCD11F6DDF45009B3D58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3211FCCF1F6DDF45009B3D58 /* Main.storyboard */; };
 		3211FCD31F6DDF45009B3D58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3211FCD21F6DDF45009B3D58 /* Assets.xcassets */; };
 		3211FCD61F6DDF45009B3D58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3211FCD41F6DDF45009B3D58 /* LaunchScreen.storyboard */; };
+		3211FCE01F6DE6A5009B3D58 /* BaseCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3211FCDF1F6DE6A5009B3D58 /* BaseCar.m */; };
+		3259041D1F6E97E900CEC531 /* CarClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 3259041C1F6E97E900CEC531 /* CarClassA.m */; };
+		325904201F6E97F100CEC531 /* CarClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = 3259041F1F6E97F100CEC531 /* CarClassB.m */; };
+		325904231F6E97FA00CEC531 /* CarClassC.m in Sources */ = {isa = PBXBuildFile; fileRef = 325904221F6E97FA00CEC531 /* CarClassC.m */; };
+		325904261F6E980200CEC531 /* CarClassD.m in Sources */ = {isa = PBXBuildFile; fileRef = 325904251F6E980200CEC531 /* CarClassD.m */; };
+		325904291F6E980900CEC531 /* CarClassE.m in Sources */ = {isa = PBXBuildFile; fileRef = 325904281F6E980900CEC531 /* CarClassE.m */; };
+		3259042C1F6E981200CEC531 /* CarClassF.m in Sources */ = {isa = PBXBuildFile; fileRef = 3259042B1F6E981200CEC531 /* CarClassF.m */; };
+		325CD6AE1F7027B90031FE7A /* CarTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 325CD6AD1F7027B90031FE7A /* CarTableVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,23 @@
 		3211FCD21F6DDF45009B3D58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3211FCD51F6DDF45009B3D58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3211FCD71F6DDF45009B3D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3211FCDD1F6DE051009B3D58 /* CarConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarConstants.h; sourceTree = "<group>"; };
+		3211FCDE1F6DE6A5009B3D58 /* BaseCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCar.h; sourceTree = "<group>"; };
+		3211FCDF1F6DE6A5009B3D58 /* BaseCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCar.m; sourceTree = "<group>"; };
+		3259041B1F6E97E900CEC531 /* CarClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarClassA.h; sourceTree = "<group>"; };
+		3259041C1F6E97E900CEC531 /* CarClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarClassA.m; sourceTree = "<group>"; };
+		3259041E1F6E97F100CEC531 /* CarClassB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarClassB.h; sourceTree = "<group>"; };
+		3259041F1F6E97F100CEC531 /* CarClassB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarClassB.m; sourceTree = "<group>"; };
+		325904211F6E97FA00CEC531 /* CarClassC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarClassC.h; sourceTree = "<group>"; };
+		325904221F6E97FA00CEC531 /* CarClassC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarClassC.m; sourceTree = "<group>"; };
+		325904241F6E980200CEC531 /* CarClassD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarClassD.h; sourceTree = "<group>"; };
+		325904251F6E980200CEC531 /* CarClassD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarClassD.m; sourceTree = "<group>"; };
+		325904271F6E980900CEC531 /* CarClassE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarClassE.h; sourceTree = "<group>"; };
+		325904281F6E980900CEC531 /* CarClassE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarClassE.m; sourceTree = "<group>"; };
+		3259042A1F6E981200CEC531 /* CarClassF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarClassF.h; sourceTree = "<group>"; };
+		3259042B1F6E981200CEC531 /* CarClassF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarClassF.m; sourceTree = "<group>"; };
+		325CD6AC1F7027B90031FE7A /* CarTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTableVC.h; sourceTree = "<group>"; };
+		325CD6AD1F7027B90031FE7A /* CarTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarTableVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +85,25 @@
 			children = (
 				3211FCC91F6DDF44009B3D58 /* AppDelegate.h */,
 				3211FCCA1F6DDF44009B3D58 /* AppDelegate.m */,
+				3211FCDD1F6DE051009B3D58 /* CarConstants.h */,
 				3211FCCC1F6DDF44009B3D58 /* ViewController.h */,
 				3211FCCD1F6DDF44009B3D58 /* ViewController.m */,
+				325CD6AC1F7027B90031FE7A /* CarTableVC.h */,
+				325CD6AD1F7027B90031FE7A /* CarTableVC.m */,
+				3211FCDE1F6DE6A5009B3D58 /* BaseCar.h */,
+				3211FCDF1F6DE6A5009B3D58 /* BaseCar.m */,
+				3259041B1F6E97E900CEC531 /* CarClassA.h */,
+				3259041C1F6E97E900CEC531 /* CarClassA.m */,
+				3259041E1F6E97F100CEC531 /* CarClassB.h */,
+				3259041F1F6E97F100CEC531 /* CarClassB.m */,
+				325904211F6E97FA00CEC531 /* CarClassC.h */,
+				325904221F6E97FA00CEC531 /* CarClassC.m */,
+				325904241F6E980200CEC531 /* CarClassD.h */,
+				325904251F6E980200CEC531 /* CarClassD.m */,
+				325904271F6E980900CEC531 /* CarClassE.h */,
+				325904281F6E980900CEC531 /* CarClassE.m */,
+				3259042A1F6E981200CEC531 /* CarClassF.h */,
+				3259042B1F6E981200CEC531 /* CarClassF.m */,
 				3211FCCF1F6DDF45009B3D58 /* Main.storyboard */,
 				3211FCD21F6DDF45009B3D58 /* Assets.xcassets */,
 				3211FCD41F6DDF45009B3D58 /* LaunchScreen.storyboard */,
@@ -151,8 +193,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				325904231F6E97FA00CEC531 /* CarClassC.m in Sources */,
+				325904291F6E980900CEC531 /* CarClassE.m in Sources */,
 				3211FCCE1F6DDF44009B3D58 /* ViewController.m in Sources */,
+				3259041D1F6E97E900CEC531 /* CarClassA.m in Sources */,
+				3211FCE01F6DE6A5009B3D58 /* BaseCar.m in Sources */,
 				3211FCCB1F6DDF44009B3D58 /* AppDelegate.m in Sources */,
+				325CD6AE1F7027B90031FE7A /* CarTableVC.m in Sources */,
+				3259042C1F6E981200CEC531 /* CarClassF.m in Sources */,
+				325904201F6E97F100CEC531 /* CarClassB.m in Sources */,
+				325904261F6E980200CEC531 /* CarClassD.m in Sources */,
 				3211FCC81F6DDF44009B3D58 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +364,7 @@
 				3211FCDC1F6DDF45009B3D58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
